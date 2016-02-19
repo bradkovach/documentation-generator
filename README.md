@@ -2,10 +2,12 @@
 Generates nice HTML entity documentation from an easy, maintainable JSON descriptor
 
 ## Usage
-`java -jar docgen.jar <input file json> <output file html>`
+```
+java -jar docgen.jar <input file json> <output file html>
 
 example:
  java -jar docgen.jar "c:/users/me/desktop/spec.json" "c:/users/me/desktop/docs.htm"
+```
 
 ## Example JSON File
 ```json
@@ -42,4 +44,5 @@ example:
          "column"
       ]
    }
-]```
+]
+```
